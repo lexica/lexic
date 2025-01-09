@@ -136,7 +136,7 @@
 			</intent-filter>
         </activity>
 
-        <activity android:name=".SettingsActivity" android:exported="false" android:parentActivityName=".MainMenuActivity">
+        <activity android:name=".SettingsActivity" android:exported="true" android:parentActivityName=".MainMenuActivity">
 			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainMenuActivity" />
 			<intent-filter>
 				<action android:name="com.serwylo.lexica.action.CONFIGURE" />
